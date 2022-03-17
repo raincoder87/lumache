@@ -1,21 +1,21 @@
-src package
-===========
+# src package
 
-Submodules
-----------
+## Submodules
 
-src.lumache module
-------------------
+## src.lumache module
 
+```{eval-rst}
 .. automodule:: src.lumache
    :members:
    :undoc-members:
    :show-inheritance:
+```
 
-Module contents
----------------
+## Module contents
 
+```{eval-rst}
 .. automodule:: src
    :members:
    :undoc-members:
    :show-inheritance:
+```
