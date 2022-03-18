@@ -9,10 +9,17 @@
 :relative-images:
 ```
 
+```{warning}
+This library is under heavy development
+```
+For further information, check out {doc}`usage` >> 
+Read the installation instruction {ref}`Installation`
+
 ```{toctree} 
 :caption: 'Contents:'
 :maxdepth: 2
 
+usage
 modules
 ```
 
