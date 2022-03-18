@@ -90,7 +90,6 @@ html_theme_options = {
     "use_download_button": True,
     "logo_only": True,
     "show_toc_level": 2,
-
 }
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
