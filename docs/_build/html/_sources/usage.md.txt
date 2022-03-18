@@ -1,6 +1,6 @@
 # Usage
 
-# Installation
+## Installation
 To install Lumache
 
 ```console

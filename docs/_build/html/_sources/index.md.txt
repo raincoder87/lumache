@@ -3,7 +3,7 @@
 % You can adapt this file completely to your liking, but it should at least
 % contain the root `toctree` directive.
 
-# GenGEO
+
 
 ```{include} ../README.md
 :relative-images:
@@ -12,6 +12,8 @@
 ```{warning}
 This library is under heavy development
 ```
+For further information, check out {doc}`usage` >> 
+Read the installation instruction {ref}`Installation`
 
 ```{toctree} 
 :caption: 'Contents:'
@@ -19,6 +21,7 @@ This library is under heavy development
 
 usage
 modules
+
 ```
 
 # Indices and tables

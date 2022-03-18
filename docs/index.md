@@ -3,7 +3,7 @@
 % You can adapt this file completely to your liking, but it should at least
 % contain the root `toctree` directive.
 
-# GenGEO
+
 
 ```{include} ../README.md
 :relative-images:
@@ -21,6 +21,7 @@ Read the installation instruction {ref}`Installation`
 
 usage
 modules
+
 ```
 
 # Indices and tables

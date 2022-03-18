@@ -20,12 +20,15 @@ autodoc_mock_imports = ["_tkinter"]
 
 # -- Project information -----------------------------------------------------
 
-project = 'gengeo'
-copyright = '2022, geg'
-author = 'geg'
+project = 'genGEO'
+copyright = '2022, Geothermal Energy and Geofluids, ETH Zurich'
+#copyright = '[Geothermal Energy and Geofluids, ETH Zurich](https://geg.ethz.ch)'
+author = 'GEG- ETH Zurich'
+
+
 
 # The full version, including alpha/beta/rc tags
-release = '0.0.1'
+#release = '0.0.1'
 
 
 # -- General configuration ---------------------------------------------------
@@ -41,7 +44,8 @@ extensions = [
     'sphinx.ext.napoleon',
     'myst_parser',
     'sphinx.ext.duration',
-    'sphinx.ext.autosectionlabel'
+    'sphinx.ext.autosectionlabel',
+#    'nbsphinx',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -60,7 +64,15 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 #
 html_theme = 'sphinx_book_theme'
 
+html_logo = '../small_logo.jpg'
+html_title = 'Documentation'
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
+
+# WARNING: `mathjax3_config['options']['processHtmlClass']` is being overridden by 
+# myst-parser to tex2jax_process|mathjax_process|math. Set `myst_mathjax_classes = None` 
+# if this is undesirable.
+
+#myst_mathjax_classes = None
