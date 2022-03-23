@@ -1,8 +1,0 @@
-# In order for adding the pdf into the website, one has to add the following block into the html file
-
-<div class="section" id="tutorial PDFs">
-<h2>Tutorial<a class="headerlink" href="#tutorial" title="Permalink to this headline">¶</a></h2>
-
-<p>Open a PDF file <a href="../../blogs/tutorial.pdf">example</a>.</p>
-
-</div>
